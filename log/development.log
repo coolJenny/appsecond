@@ -16540,3 +16540,43 @@ Completed 200 OK in 17ms (Views: 16.1ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/favicon-0bb40278569b9b906e82745198f5b726e43a3bd475c23d2c528f699089484601.png" for 127.0.0.1 at 2017-09-21 23:15:55 -0400
+Started GET "/" for 127.0.0.1 at 2017-09-21 23:23:36 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 181ms (Views: 171.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/favicon-0bb40278569b9b906e82745198f5b726e43a3bd475c23d2c528f699089484601.png" for 127.0.0.1 at 2017-09-21 23:23:36 -0400
+Started GET "/" for 127.0.0.1 at 2017-09-21 23:23:40 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/favicon-0bb40278569b9b906e82745198f5b726e43a3bd475c23d2c528f699089484601.png" for 127.0.0.1 at 2017-09-21 23:23:41 -0400
+Started GET "/" for 127.0.0.1 at 2017-09-21 23:23:44 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 32ms (Views: 30.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/favicon-0bb40278569b9b906e82745198f5b726e43a3bd475c23d2c528f699089484601.png" for 127.0.0.1 at 2017-09-21 23:23:44 -0400
+Started GET "/" for 127.0.0.1 at 2017-09-21 23:23:47 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/favicon-0bb40278569b9b906e82745198f5b726e43a3bd475c23d2c528f699089484601.png" for 127.0.0.1 at 2017-09-21 23:23:47 -0400
+Started GET "/" for 127.0.0.1 at 2017-09-21 23:24:28 -0400
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/favicon-0bb40278569b9b906e82745198f5b726e43a3bd475c23d2c528f699089484601.png" for 127.0.0.1 at 2017-09-21 23:24:28 -0400
