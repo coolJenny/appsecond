@@ -1,0 +1,34 @@
+<h3>
+  Angular 2 Seed
+</h3>
+<nav>
+	<a [routerLink]=" ['/Home'] ">
+    Home
+  </a>
+  |
+  <a [routerLink]=" ['/About'] ">
+    About
+  </a>
+  |
+  <a [routerLink]=" ['/RepoBrowser/RepoList', {org: 'angular'}] ">
+    Github Repos
+  </a>
+</nav>
+
+<main>
+	<router-outlet></router-outlet>
+</main>
+
+
+<<div class="footer mfooter">
+  <div class="container text-center">
+    <div class="col-sm-12 footer">
+      <p>
+        <i class="fa fa-envelope"></i>  sales@autopsyapp.com
+      </p>
+      <p>
+        <i class="fa fa-copyright dblue"> </i> &copy; Copyright Baylor College of Medicine, the year of inception through the current year, All rights reserved
+      </p>
+    </div>
+  </div>
+</div>

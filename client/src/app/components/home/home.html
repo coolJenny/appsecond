@@ -1,0 +1,77 @@
+<div class="container caps">
+  <div class="panel-group">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3>CANCER PROTOCOLS</h3>
+      </div>
+      <div class="panel-body">
+        <div class="row">
+          <table class="table table-bordered w3-table">
+            <tbody>
+              <tr>
+                <td><a>Bone and soft tissue</a></td>
+                <td><a>Breast</a></td>
+                <td><a>Central nervous system</a></td>
+                <td><a>Endocrine</a></td>
+              </tr>
+              <tr>
+                <td><a>Gastrointestinal</a></td>
+                <td><a>Genitourinary</a></td>
+                <td><a>Gynecologic</a></td>
+                <td><a>Head and neck</a></td>
+              </tr>
+              <tr>
+                <td><a>Hematologic</a></td>
+                <td><a>Ophthalmic</a></td>
+                <td class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="">Pediatric</a>
+                  <ul class="dropdown-content">
+                    <li *ngFor="#cap_name of cap_names"><a href="#/cap/{{cap_name.no}}">{{cap_name.name}}</a></li>
+                  </ul>
+                </td>
+                <td><a>Skin</a></td>
+              </tr>
+              <tr>
+                <td><a>Torax</a></td>
+                <td><a>Other</a></td>
+                <td><a></a></td>
+                <td><a></a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3>BIOMARKER TEMPLATES</h3>
+      </div>
+      <div class="panel-body">
+        <div class="row w3-responsive" style="overflow-x:auto;">
+          <table class="w3-table table table-bordered">
+            <tbody>
+              <tr>
+                <td><a>Breast</a></td>
+                <td><a>Central nervous system</a></td>
+                <td><a>Endocrine</a></td>
+                <td><a>Gastrointestinal</a></td>
+              </tr>
+              <tr>
+                <td><a>Gynecologic</a></td>
+                <td><a>Head and neck</a></td>
+                <td><a>Hematologic</a></td>
+                <td><a>Skin</a></td>
+              </tr>
+              <tr>
+                <td><a>Torax</a></td>
+                <td><a></a></td>
+                <td><a></a></td>
+                <td><a></a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
